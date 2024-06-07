@@ -1,13 +1,70 @@
-# Sample Hardhat Project
+# Decentralized Kudumbashree (D-KUDUMBASHREE)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Introduction
+D-Kudumbashree represents an initiative to decentralize one of Asia’s largest Self-Help Groups (SHGs), Kudumbashree. This project aims to redistribute authority from the SHG president to its members using blockchain technology, ensuring transparency, security, and democratization of processes.
 
-Try running some of the following tasks:
+## Features
+- **Decentralized Authority:** Redistributes decision-making power from the SHG president to its members.
+- **Seamless Payments:** Facilitates weekly and loan-due payments with the help of cryptoassets based on member eligibility.
+- **User-Friendly Dashboard:** Provides complete details to users like savings, loan dues, total SHG worth, pending loan approvals etc.
+- **Blockchain-Based Voting:** Enables democratic loan approvals and presidential elections within the SHG.
+- **Automated Meeting Documentation:** Utilizes a chatbot to generate accurate minutes of meetings.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+## Technology Stack
+- **React.js:** Frontend Development
+- **Solidity:** Language used to program Smart Contract. Remix IDE was used for convenience in compilation and testing.
+- **Hardhat:** Used for deploying smart contract on testnet.
+- **Ethers.js:** Used for integrating smart contract with frontend.
+- **Plygon Amoy:** Testnet on which the application is deployed. Native currency is MATIC.
+
+## Installation
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**
+   ```sh
+   git clone https://github.com/ashwincs12/Decentralized-Kudumbashree.git
+   ```
+2. **Install Dependencies**
+   ```sh
+   cd Decentralized-Kudumbashree
+   npm install
+   cd client
+   npm install
+   ```
+3. **Configure Blockchain Network**
+   - Use Alchemy/Infura to generate API Keys
+   - Replace <API KEY> and <PRIVATE KEY> fields in configuration file.
+     
+   ```sh
+    networks: {
+      amoy: {
+        url: <API KEY>, 
+        accounts: [<PRIVATE KEY>] 
+      }
+   ```
+4. **Deploy Smart Contract**
+   ```sh
+   npx hardhat run scripts/deploy.js --network amoy
+   ```
+5. **Start the Application**
+   ```sh
+   npm start
+   ```
+
+## Usage
+1. **Register/Login**:
+    - Access the landing page to register as a new user or login if you already have an account.
+2. **Create/Join SHG**:
+    - New users can create a new Self-Help Group (SHG) or join an existing one by providing necessary details.
+3. **Perform Transactions**:
+    - Use the dashboard to make weekly payments, request loans, or participate in voting for loan approvals and presidential elections.
+4. **Generate Meeting Minutes**:
+    - Utilize the integrated chatbot to document meeting minutes by providing the required inputs.
+  
+## Developers
+- **Ashwin C S**
+- **Niyathi Mariya George**
+- **Sherhin P P**
+- **Sheena A P**
+
+
