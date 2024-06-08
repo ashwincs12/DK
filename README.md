@@ -15,7 +15,7 @@ D-Kudumbashree represents an initiative to decentralize one of Asia’s largest 
 - **Solidity:** Language used to program Smart Contract. Remix IDE was used for convenience in compilation and testing.
 - **Hardhat:** Used for deploying smart contract on testnet.
 - **Ethers.js:** Used for integrating smart contract with frontend.
-- **Plygon Amoy:** Testnet on which the application is deployed. Native currency is MATIC.
+- **Polygon Amoy:** Testnet on which the application is deployed. Native currency is MATIC.
 
 ## Installation
 Follow these steps to set up the project locally:
@@ -60,11 +60,12 @@ Follow these steps to set up the project locally:
     - Use the dashboard to make weekly payments, request loans, or participate in voting for loan approvals and presidential elections.
 4. **Generate Meeting Minutes**:
     - Utilize the integrated chatbot to document meeting minutes by providing the required inputs.
+
   
 ## Developers
-- **Ashwin C S**
-- **Niyathi Mariya George**
-- **Sherhin P P**
+- **Ashwin C S** ([LinkedIn](https://www.linkedin.com/in/ashwin-cs))
+- **Niyathi Mariya George** ([LinkedIn](https://www.linkedin.com/in/niyathi-mariya-george/))
+- **Sherhin P P** ([LinkedIn](https://www.linkedin.com/in/sherhin-shoukath-8973a620b/))
 - **Sheena A P**
 
 
