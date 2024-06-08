@@ -15,8 +15,8 @@ module.exports = {
   },
   networks: {
     amoy: {
-      url: `https://polygon-amoy.g.alchemy.com/v2/70haACb3OPDpO29h1rDu-XyFs0wkvcZ2`, 
-      accounts: ['29a658d6f8810d72015d17fe2de618847e5a2c085afe97fb5a060521daa83d8f'] 
+      URL: <API KEY>, 
+      accounts: [<PRIVATE KEY>] 
     }
   },
 };
